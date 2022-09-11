@@ -1,0 +1,25 @@
+{
+  "name": "node-ts-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/baldh/node-ts-boilerplate.git",
+  "author": "baldh <baldhokri1@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon",
+    "lint": "eslint . --ext .ts",
+    "build": "rimraf ./build && tsc"
+  },
+  "dependencies": {
+    "@types/node": "^18.7.16",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.1"
+  }
+}
